@@ -1,0 +1,5 @@
+requests>=2.31.0
+
+# Only needed when PROXY_URL uses socks5:// or socks5h://.
+# Equivalent to:  pip install "requests[socks]"
+PySocks>=1.7.1
